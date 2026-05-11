@@ -6,6 +6,7 @@
 .the-body{
     background-image: url(../images/82EF3CD2-5D16-4A27-853F-D0F0AA585773.png);
     background-size: cover;
+    background-repeat: no-repeat;
     height: 200vh;
 
 
@@ -19,14 +20,23 @@
 }
 .the-title{
     color: rgb(49, 69, 132);
-    letter-spacing: -1px;
+    letter-spacing: 2px;
+    margin: 0 0 0 55px;
+
+
 }
 .the-oo{
     border-bottom: 5px solid red;
 }
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 0 60px;
+}
 .nav-list{
     display: flex;
     flex-direction: row;
+    margin: 12px 0px 0 100px ;
 }
 .nav-list li{
     list-style: none;
@@ -38,3 +48,10 @@
     font-family: 'Work Sans' sans-serif;
     font-weight: 800;
 }
+.btn{
+    background-color: white;
+    color: red;
+    border: hidden;
+    padding: 10px 25px 10px 25px;
+    margin: 0 200px 0 0;
+ }
