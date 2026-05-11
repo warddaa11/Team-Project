@@ -48,6 +48,9 @@
     font-family: 'Work Sans' sans-serif;
     font-weight: 800;
 }
+.nav-list a:hover{
+    color: red;
+}
 .btn{
     background-color: white;
     color: red;
@@ -90,6 +93,62 @@
 .paragraph2{
     color: gray;
     margin-left: 10px;
+}
+.last-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    height: 100vw;
+}
+.last-section-form{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.last-section-title p{
+    color: red;
+    font-size: 11px;
+
+}
+.last-section-title h1{
+    color:  rgb(48, 68, 132);
+}
+.input-form{
+    width: 350px;
+    padding: 10px 0 10px 10px;
+    background-color: rgb(244, 250, 254);
+    border: hidden;
+    border-radius: 5px;
+    margin: 0 15px 0 0 ;
+}
+.input-form::placeholder{
+    color:  rgb(48, 68, 132);
+}
+.text-area{
+    background-color: rgb(244, 250, 254);
+    border: hidden;
+    border-radius: 5px;
+    padding: 10px 0 10px 10px;
+    width: 720px;
+    height: 100px;
+
+}
+.text-area::placeholder{
+    color:  rgb(48, 68, 132);
+}
+.last-btn{
+    display: flex;
+    justify-content: center;
+    width: 700px;
+}
+.form-btn{
+    color: white;
+    background-color: red;
+    padding: 10px 25px 10px 25px;
+    border-radius: 15px;
+    border: hidden;
 }
 .SecondSection{
     display: flex;
