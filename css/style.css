@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.the-body{
+    background-image: url(../images/82EF3CD2-5D16-4A27-853F-D0F0AA585773.png);
+    background-size: cover;
+    height: 200vh;
+
+
+}
+.the-header{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 25px 20px 25px;
+}
+.the-title{
+    color: rgb(49, 69, 132);
+    letter-spacing: -1px;
+}
+.the-oo{
+    border-bottom: 5px solid red;
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+}
+.nav-list li{
+    list-style: none;
+}
+.nav-list a{
+    text-decoration: none;
+    margin: 15px;
+    color: rgb(49, 69, 132);
+    font-family: 'Work Sans' sans-serif;
+    font-weight: 800;
+}
