@@ -48,3 +48,45 @@
     font-family: 'Work Sans' sans-serif;
     font-weight: 800;
 }
+.btn{
+    background-color: white;
+    color: red;
+    border: hidden;
+    padding: 10px 25px 10px 25px;
+    margin: 0 200px 0 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ }
+.FirstSection{
+    margin-left: 40px;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.Title{
+    color: rgb(48, 68, 132);
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.paragraph{
+    border: 1px solid rgb(255, 255, 255) ;
+    padding: 10px;    
+    color:rgb(48, 68, 132) ;
+    border-radius: 20px;
+    width: 200px;
+    margin-top: 10px;
+    text-align: center;
+}
+.paragraph:hover{
+    background-color:rgb(255, 57, 70) ;
+    color: white;
+    
+}
+.paragraph1{
+    display: flex;
+}
+.paragraph2{
+    color: gray;
+    margin-left: 10px;
+}
