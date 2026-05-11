@@ -60,9 +60,9 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
  }
 .FirstSection{
-    margin-left: 40px;
-    margin-top: 100px;
-    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 150px;
+    margin-top: 200px;
+    
 }
 
 
@@ -80,11 +80,24 @@
     width: 200px;
     margin-top: 10px;
     text-align: center;
+    font-weight: bold;
+    
 }
 .paragraph:hover{
     background-color:rgb(255, 57, 70) ;
     color: white;
     
+}
+.parag{
+    border: 1px solid rgb(255, 255, 255) ;
+    padding: 10px;    
+    background-color:rgb(255, 57, 70) ;
+    color: white;
+    border-radius: 20px;
+    width: 200px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
 }
 .paragraph1{
     display: flex;
@@ -92,6 +105,7 @@
 .paragraph2{
     color: gray;
     margin-left: 10px;
+    margin: 20px 0px;
 }
 .last-section{
     display: flex;
@@ -163,7 +177,7 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     width: 300px;
     height: 300px;
-    padding: 10px;
+    padding: 20px;
 }
 .container1{
     width: 300px;
@@ -183,10 +197,11 @@ h1{
     background-color: rgb(255, 57, 70);
     color: white;
     padding: 10px;
-    width: 150px;
+    width: 110px;
     border-radius: 20px;
     align-items: center;
     margin-top: 30px;
+    font-weight: bold;
 }
 .nav-foot{
     display: flex;
